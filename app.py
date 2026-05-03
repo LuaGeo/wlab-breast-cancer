@@ -97,7 +97,7 @@ def show_result(prediction, proba):
 # ---------- Header ----------
 col_logo, col_title = st.columns([1, 4])
 with col_logo:
-    logo_path = Path(__file__).parent / "img" / "logo_wlab4_2.png"
+    logo_path = Path(__file__).parent / "img" / "logo_wlab4_2.svg"
     if logo_path.exists():
         st.image(str(logo_path), width=120)
 with col_title:
